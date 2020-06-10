@@ -1,0 +1,43 @@
+.trailer {
+    background-color: #1B002A;
+    &-title {
+        color: white;
+        padding: 2rem 0;
+    }
+    iframe {
+        border: none;
+    }
+    .trailer-right {
+        padding-right: 0.5rem;
+        height: 100%;
+        padding-top: 1.5rem;
+        padding-left: 1.3rem;
+        background-color: #050505a8;
+        h2 {
+            font-size: 32px;
+            color: white;
+        }
+        h6 {
+            font-size: 14px;
+            color: white;
+        }
+        p {
+            font-size: 16px;
+            color: white;
+        }
+    }
+    .trailer-btn {
+        padding: 2rem 0;
+        display: flex;
+        a {
+            i {
+                margin-right: 3px;
+            }
+            background-color: #FF8E66;
+            color: white;
+            font-size: 24px;
+            margin-right: 10px;
+            padding: 0.5rem 1rem;
+        }
+    }
+}
